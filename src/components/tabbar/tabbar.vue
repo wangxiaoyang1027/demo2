@@ -1,9 +1,24 @@
 <template>
 <div id='tabbar'>
-    <div class='tab_bar_item'>我的</div>
-    <div class='tab_bar_item'>购物车</div>
-    <div class="tab_bar_item">item3</div>
-    <div class="tab_bar_item">item4</div>
+    <slot></slot>
+   
+
+    <!-- <div class='tab_bar_item'><img src='../../assets/img/tabbar/wm1.jpg' />
+    <div>我的</div>
+        
+    </div>
+    <div class='tab_bar_item'>
+         <img src='../../assets/img/tabbar/wm1.jpg' />
+         <div>购物车</div>
+    </div>
+    <div class="tab_bar_item">
+         <img src='../../assets/img/tabbar/wm1.jpg' />
+         <div>item3</div>
+    </div>
+    <div class="tab_bar_item">
+         <img src='../../assets/img/tabbar/wm1.jpg' />
+         <div>item4</div>
+    </div> -->
 </div>
 </template>
 
@@ -25,10 +40,5 @@ export default {
 }
 
 
-.tab_bar_item{
-    flex:1;
-    text-align: center;
-    height: 49px;
-}
 
 </style>
