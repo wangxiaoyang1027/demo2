@@ -3,22 +3,6 @@
     <slot></slot>
    
 
-    <!-- <div class='tab_bar_item'><img src='../../assets/img/tabbar/wm1.jpg' />
-    <div>我的</div>
-        
-    </div>
-    <div class='tab_bar_item'>
-         <img src='../../assets/img/tabbar/wm1.jpg' />
-         <div>购物车</div>
-    </div>
-    <div class="tab_bar_item">
-         <img src='../../assets/img/tabbar/wm1.jpg' />
-         <div>item3</div>
-    </div>
-    <div class="tab_bar_item">
-         <img src='../../assets/img/tabbar/wm1.jpg' />
-         <div>item4</div>
-    </div> -->
 </div>
 </template>
 

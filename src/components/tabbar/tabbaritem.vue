@@ -1,7 +1,7 @@
 <template>
     <div class='tab_bar_item'>
         <slot name='itemimg'></slot>
-        <slot name='itmeimgactive'></slot>
+        <slot name='itemimgactive'></slot>
         <slot name='itemtext'></slot>
     </div>
 </template>
