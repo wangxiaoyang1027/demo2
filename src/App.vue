@@ -2,11 +2,12 @@
   <div >
     <TabBar>
       <TabBarItem>
+
         <img v-if="!isActive" slot='itemimg'  src='./assets/img/tabbar/wm1.jpg'/>
         <img v-else slot='itemimgactive'     src='./assets/img/tabbar/Bears.jpg' />
-        <div>
+       
           <div slot='itemtext'>首页</div>
-        </div>
+
       </TabBarItem>
 
       <TabBarItem>
