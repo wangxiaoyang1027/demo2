@@ -1,24 +1,25 @@
 <template>
   <div >
+    <router-view></router-view>
     <TabBar>
-      <TabBarItem>
+      <TabBarItem path='/home'>
 
-        <img v-if="!isActive" slot='itemimg'  src='./assets/img/tabbar/wm1.jpg'/>
-        <img v-else slot='itemimgactive'     src='./assets/img/tabbar/Bears.jpg' />
-       
-          <div slot='itemtext'>首页</div>
+        <img slot='itemimg'  src='./assets/img/tabbar/wm1.jpg'/>
+        <img slot='itemimgactive' src='./assets/img/tabbar/Bears.jpg' />
+        
+           <div slot='itemtext'>首页</div>
 
       </TabBarItem>
 
-      <TabBarItem>
-        <img v-if="!isActive" slot='itemimg' src='./assets/img/tabbar/wm1.jpg'/>
-        <img v-else slot='itemimgactive' src='./assets/img/tabbar/Bears.jpg' />
+      <TabBarItem path='/all'>
+        <img slot='itemimg' src='./assets/img/tabbar/wm1.jpg'/>
+        <img slot='itemimgactive' src='./assets/img/tabbar/Bears.jpg' />
         <div slot='itemtext'>购物车</div>
       </TabBarItem>
 
       <TabBarItem>
-        <img v-if="!isActive" slot='itemimg' src='./assets/img/tabbar/wm1.jpg'/>
-        <img v-else slot='itemimgactive' src='./assets/img/tabbar/Bears.jpg' />
+        <img  slot='itemimg' src='./assets/img/tabbar/wm1.jpg'/>
+        <img  slot='itemimgactive' src='./assets/img/tabbar/Bears.jpg' />
         <div slot='itemtext'>全局</div>
       </TabBarItem>
 
@@ -38,9 +39,6 @@ export default {
   components: {
     TabBar,
     TabBarItem
-  },
-  data(){
-    return {isActive:true}
   }
 }
 </script>
