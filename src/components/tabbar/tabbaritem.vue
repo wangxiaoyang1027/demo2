@@ -11,13 +11,17 @@
 <script>
 export default {
     name:'tabbaritem',
+    props:{path:String },
+    computed:{
+        isActive(){
+            return this.$route.path.indexOf(this.path) >-1
+            // return true
+        }
+    },
     methods:{
         OnClick(){
            this.$router.replace(this.path)   
         }
-    },
-    data(){
-        return {isActive :false}
     }
 
 }
